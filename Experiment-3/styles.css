@@ -1,33 +1,38 @@
+/* Header section - top navigation bar styling */
 header{
-    border: 1px solid #ffffff;
-    background-color: #02c902;
-    grid-column: 1/span 2;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+    border: 1px solid #ffffff; /* adds white border around header */
+    background-color: #02c902; /* sets bright green background color */
+    grid-column: 1/span 2; /* spans header across both grid columns */
+    display: flex; /* enables flexible layout for header content */
+    justify-content: space-between; /* pushes title and controls to opposite ends */
+    align-items: center; /* centers content vertically in header */
+    padding: 0 20px; /* adds horizontal spacing from edges */
 }
 
+/* Navigation sidebar - left menu area styling */
 nav {
-    border: 1px solid #ffffff;
-    background-color: #e5e9e6;
+    border: 1px solid #ffffff; /* adds white border around navigation */
+    background-color: #e5e9e6; /* sets light gray background for sidebar */
 }
 
+/* Main content area - primary dashboard content styling */
 main {
-    border: 1px solid #ffffff;
-    background-color: #f0f0f0;
+    border: 1px solid #ffffff; /* adds white border around main content */
+    background-color: #f0f0f0; /* sets light gray background for content area */
 }
 
+/* Footer section - bottom bar styling */
 footer {
-    border: 1px solid #ffffff;
-    background-color: #02c902;
-    grid-column: 1/span 2;
-    text-align: center;
+    border: 1px solid #ffffff; /* adds white border around footer */
+    background-color: #02c902; /* sets bright green background matching header */
+    grid-column: 1/span 2; /* spans footer across both grid columns */
+    text-align: center; /* centers footer text horizontally */
 }
 
+/* Body element - main grid container for dashboard layout */
 body {
-    display: grid;
-    grid-template-columns: 280px auto;
-    grid-template-rows: 100px auto 50px;
-    height: 100vh;
+    display: grid; /* enables CSS Grid layout system */
+    grid-template-columns: 280px auto; /* creates fixed sidebar width and flexible main area */
+    grid-template-rows: 100px auto 50px; /* sets fixed header height, flexible content, and fixed footer */
+    height: 100vh; /* makes dashboard fill entire viewport height */
 }
