@@ -1,42 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Head section - contains page metadata and external file links -->
 <head>
-    <meta charset="UTF-8"> <!-- sets character encoding for proper text display -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- makes page responsive on mobile devices -->
-    <title>Admin Dashboard</title> <!-- sets the page title shown in browser tab -->
-    <link rel="stylesheet" href="styles.css"> <!-- connects CSS file for dashboard styling -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<!-- Body element - contains all visible dashboard content -->
 <body>
-    <!-- Header section - top navigation bar with title and controls -->
-    <header>
-        <h1>Admin Dashboard</h1> <!-- main dashboard title -->
-        <!-- Theme toggle control - checkbox for switching between light/dark modes -->
-        <label>
-            <input type="checkbox" id="themeToggle"> <!-- checkbox input for theme switching -->
-            Dark Mode <!-- label text for the theme toggle -->
-        </label>
-    </header>
+    <input type="checkbox" id="themeToggle">
+    <div class="dashboard">
+        <header>
+            <h1>Admin Dashboard</h1>
+            <label for="themeToggle">
+                Dark Mode
+            </label>
+        </header>
 
-    <!-- Navigation sidebar - contains main menu links -->
-    <nav>
-        <ul> <!-- unordered list for navigation items -->
-            <li><a href="#">Home</a></li> <!-- home page navigation link -->
-            <li><a href="#">Users</a></li> <!-- users management navigation link -->
-            <li><a href="#">Settings</a></li> <!-- settings page navigation link -->
-        </ul>
-    </nav>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Users</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
 
-    <!-- Main content area - displays primary dashboard information -->
-    <main>
-        <h2>Welcome, Admin!</h2> <!-- welcome heading for the admin user -->
-        <p>This is the main content area. Add charts, tables, or reports here.</p> <!-- placeholder content description -->
-    </main>
+        <main>
+            <h2>Welcome, Admin!</h2>
+            <p>This is the main content area. Add charts, tables, or reports here.</p>
+        </main>
 
-    <!-- Footer section - bottom bar with copyright information -->
-    <footer>
-        <p>&copy; 2025 Admin Panel</p> <!-- copyright notice for the admin panel -->
-    </footer>
+        <footer>
+            <p>&copy; 2025 Admin Panel</p>
+        </footer>
+    </div>
 </body>
 </html>
